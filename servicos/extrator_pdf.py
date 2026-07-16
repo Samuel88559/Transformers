@@ -86,31 +86,43 @@ def pegar_padrao(linhas):
 
     return padrao
 
-#Função extrair os dados e lapidá-los para serem postos na planilha do Excel
+# Função extrair os dados e lapidá-los para serem postos na planilha do Excel
 def processar_pdf(arquivo):
+    try:
 
-#abre o arquivo PDF na variável pdf
-    with pdfplumber.open(arquivo) as pdf:
+# Abre o arquivo PDF na variável pdf
+        with pdfplumber.open(arquivo) as pdf:
 
-#Abre a página que for solicitada
-                pagina = pdf.pages[0]
-#Abre o conteúdo que estiver nessa página                
-                texto = pagina.extract_text()
+# Abre a página que for solicitada
+                    pagina = pdf.pages[0]
+# Abre o conteúdo que estiver nessa página                
+                    texto = pagina.extract_text()
 
-#Separação de conteúdo por linha
-                linhas = texto.split("\n")
+# Separação de conteúdo por linha
+                    linhas = texto.split("\n")
 
 # Dados do PDF
-                data = pegar_data(linhas)
+                    data = pegar_data(linhas)
 
-                numero_pedido = pegar_numero_pedido(linhas)
+                    numero_pedido = pegar_numero_pedido(linhas)
 
-                cliente = pegar_cliente(linhas)
-                
-                padrao = pegar_padrao(linhas)
+                    cliente = pegar_cliente(linhas)
+                    
+                    padrao = pegar_padrao(linhas)
 
-                filme = pegar_filme(linhas) + "A"
+                    filme = pegar_filme(linhas) + "A"
 
-                peso_tubete = pegar_peso_tubete(linhas) + "KG"
+                    peso_tubete = pegar_peso_tubete(linhas) + "KG"
 
-                
+                    dados = {
+                                "data": data,
+                                "numero_pedido": numero_pedido,
+                                "cliente": cliente,
+                                "padrao": padrao,
+                                "filme": filme,
+                                "peso_tubete": peso_tubete
+                            }
+
+                    return dados
+    except Exception as erro:
+        raise erro

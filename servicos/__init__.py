@@ -1,0 +1,1 @@
+#Arquivo responsável por permitir que todos os arquivos desta pasta sejam considerados legíveis para o programa
