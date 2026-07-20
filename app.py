@@ -11,11 +11,11 @@ def home():
 
     if request.method == "POST":
             
+# Linha responsável por determinar que somente arquivos PDF serão importados
+            arquivo = request.files.get("pdf")
+            
 # Esse try e execpt são uma prevenção, caso o usuário envie algum arquivo que não seja correspondente ao que queremos, ele enviará essa mensagem de erro e o programa continuará a funcionar normalmente            
             try:
-            
-# Linha responsável por determinar que somente arquivos PDF serão importados
-                arquivo = request.files.get("pdf")
 
 # Comando, com uma nova "variável arquivo_excel" que puxa do conversor o arquivo já pronto e lapidado e só espera ser chamado para lançado no sistema
                 arquivo_excel = converter_pdf(arquivo)

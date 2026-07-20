@@ -1,11 +1,21 @@
 import pdfplumber
 
+#importações vindas de outros arquivos
+from exceptions import(
+    DataNaoEncontradoError,
+    NumeroPedidoNaoEncontrado,
+    ClienteNaoEncontradoError,
+    PadraoNaoEncontradoerror,
+    FilmeNaoEncontradoerror,
+    PesoTubeteNaoEncontradoError
+)
+
 def pegar_cliente(linhas):
                 
     for linha in linhas:
         if "Cliente" in linha:
 
-            # Comando para saber as posições das variáveis
+# Comando para saber as posições das variáveis
 
             posicao = linha.find("Cliente")
             inicio = posicao + len("Cliente ")
@@ -13,6 +23,7 @@ def pegar_cliente(linhas):
             cliente = linha[inicio:]
 
             return cliente
+    raise ClienteNaoEncontradoError
         
 def pegar_data(linhas):
                 
@@ -27,6 +38,7 @@ def pegar_data(linhas):
             data = linha[inicio:]
 
             return data
+    raise DataNaoEncontradoError
         
 def pegar_numero_pedido(linhas):
                 
@@ -39,11 +51,11 @@ def pegar_numero_pedido(linhas):
             numero_pedido = linha[inicio:]
 
             return numero_pedido
+    raise NumeroPedidoNaoEncontrado
         
 def pegar_filme(linhas):
 
-#Variável vazia para que caso o valor não seja encontrado não seja convertido em none e dê erro no programa
-    filme = ""
+    #filme = ""
                 
     for linha in linhas:
         if "FILME" in linha:
@@ -51,11 +63,15 @@ def pegar_filme(linhas):
             posicao = linha.find("FILME")
             inicio = posicao + len("FILME ")
 
-            filme = linha[inicio:inicio+3]
+            filme = linha[inicio:inicio+3] + "A"
 
             return filme
+    raise FilmeNaoEncontradoerror
         
 def pegar_peso_tubete(linhas):
+
+ #Variável vazia para que caso o valor não seja encontrado não seja convertido em none e dê erro no programa   
+    peso_tubete = ""
                 
     for linha in linhas:
         if "FILME +" in linha:
@@ -63,13 +79,15 @@ def pegar_peso_tubete(linhas):
             posicao = linha.find("FILME +")
             inicio = posicao + len("FILME + ")
 
-            peso_tubete = linha[inicio:inicio+2]
+            peso_tubete = linha[inicio:inicio+2] + "KG"
 
             return peso_tubete
-    return ""
-        
+
+#TALVEZ EU TENHA ERRADO
+      
 def pegar_padrao(linhas):
     padrao = ""
+    palavra2 = ""
          
     for linha in linhas:
         if "- (" in linha:
@@ -77,14 +95,18 @@ def pegar_padrao(linhas):
         
             for palavra in palavras:
 
+ #Retira os parênteses que estão ligados aos numeros por valores vazios
                 palavra1 = palavra.replace("(", "")
                 palavra2 = palavra.replace(")", "")
 
+#se palavara é um digito
                 if palavra.isdigit():
 
                     padrao = palavra1 + " + " + palavra2
 
-    return padrao
+                    return padrao
+    raise PadraoNaoEncontradoerror
+
 
 # Função extrair os dados e lapidá-los para serem postos na planilha do Excel
 def processar_pdf(arquivo):
@@ -110,9 +132,9 @@ def processar_pdf(arquivo):
                     
                     padrao = pegar_padrao(linhas)
 
-                    filme = pegar_filme(linhas) + "A"
+                    filme = pegar_filme(linhas) #+ "A"
 
-                    peso_tubete = pegar_peso_tubete(linhas) + "KG"
+                    peso_tubete = pegar_peso_tubete(linhas) #+ "KG"
 
                     dados = {
                                 "data": data,

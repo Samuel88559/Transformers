@@ -13,5 +13,5 @@ class PadraoNaoEncontradoerror(Exception):
 class FilmeNaoEncontradoerror(Exception):
     pass
 
-class PesoTubeteNaoEncontradoError(Exception):
+class ArquivoInvalidoerror(Exception):
     pass
