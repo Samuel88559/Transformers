@@ -19,5 +19,8 @@ def converter_pdf(arquivo):
                 return arquivo_excel
             
             except Exception as erro:
+
+                print("Erro encontrado:", erro)
+
                 registrar_erro(str(erro))
                 raise

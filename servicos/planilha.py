@@ -24,7 +24,7 @@ def preencher_planilha(dados):
         aba[CELULAS[chave]] = dados[chave]
 
 # Comando para nomear a data e hora no arquivo
-    nome = datetime.now().strftime("%Y%m%d_%H%M%S")
+    nome = datetime.now().strftime("%d%m%Y_%H%M%S")
 
     arquivo = f"resultado_{nome}.xlsx"
     planilha.save(arquivo)

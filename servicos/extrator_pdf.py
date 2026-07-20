@@ -1,13 +1,12 @@
 import pdfplumber
 
 #importações vindas de outros arquivos
-from exceptions import(
+from servicos.exceptions import(
     DataNaoEncontradoError,
     NumeroPedidoNaoEncontrado,
     ClienteNaoEncontradoError,
     PadraoNaoEncontradoerror,
     FilmeNaoEncontradoerror,
-    PesoTubeteNaoEncontradoError
 )
 
 def pegar_cliente(linhas):
@@ -110,7 +109,6 @@ def pegar_padrao(linhas):
 
 # Função extrair os dados e lapidá-los para serem postos na planilha do Excel
 def processar_pdf(arquivo):
-    try:
 
 # Abre o arquivo PDF na variável pdf
         with pdfplumber.open(arquivo) as pdf:
@@ -146,5 +144,5 @@ def processar_pdf(arquivo):
                             }
 
                     return dados
-    except Exception as erro:
-        raise erro
+    
+        raise
