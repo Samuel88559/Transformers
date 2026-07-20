@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, send_file
 
 #importações vindas de outros arquivos
 from servicos.conversor import converter_pdf
+from servicos.tratador_erros import tratar_erro
 
 app = Flask(__name__)
 
@@ -23,8 +24,10 @@ def home():
 #Ele lança o arquivo no sistema
                 return send_file(arquivo_excel)
 
-            except (FileNotFoundError, ValueError, KeyError):
-                return "Erro ao processar o PDF."
+            except Exception as erro:
+                 mensagem  = tratar_erro(erro)
+
+                 return mensagem
                 
 
 #Enquanto nada for enviado ainda será um GET, logo, enquanto isso, afim de evitar erro, o programa pula para as linha anteriores para que a página possa ser aberta, carregando a página através do arquivo HTML

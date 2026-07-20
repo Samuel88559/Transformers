@@ -1,9 +1,4 @@
 import logging
-import os
-
-print(os.getcwd())
-
-print("logger carregando")
 
 logging.basicConfig(
     filename = "logs.txt",
@@ -12,9 +7,7 @@ logging.basicConfig(
 )
 
 def registrar_info(mensagem):
-    print(f"INFO: {mensagem}")
     logging.info(mensagem)
 
 def registrar_erro(mensagem):
-    print(f"ERRO: {mensagem}")
     logging.error(mensagem)

@@ -12,33 +12,14 @@ def converter_pdf(arquivo):
                 dados = processar_pdf(arquivo)
                 arquivo_excel = preencher_planilha(dados)
 
-                print("vou registrar o log")
-
-                print("1 - validar")
-
-                validar_arquivo(arquivo)
-
-                print("2 - extrair")
-
-                dados = processar_pdf(arquivo)
-
-                print("3 - preencher")
-
-                arquivo_excel = preencher_planilha(dados)
-
-                print("4 - registrar")
-
                 registrar_info(
                     f"Conversão do {arquivo.filename} realizada com sucesso!"
                 )
-
-                print("5 - retornar")
 
                 return arquivo_excel
             
             except Exception as erro:
 
-                print("Erro encontrado:", erro)
-
+# Registra o erro e envia para o logger afim de que o desenvolvedor saiba qual o erro
                 registrar_erro(str(erro))
                 raise
