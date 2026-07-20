@@ -14,7 +14,25 @@ def converter_pdf(arquivo):
 
                 print("vou registrar o log")
 
-                registrar_info(f"Conversão do {arquivo.filename} realizada com sucesso!")
+                print("1 - validar")
+
+                validar_arquivo(arquivo)
+
+                print("2 - extrair")
+
+                dados = processar_pdf(arquivo)
+
+                print("3 - preencher")
+
+                arquivo_excel = preencher_planilha(dados)
+
+                print("4 - registrar")
+
+                registrar_info(
+                    f"Conversão do {arquivo.filename} realizada com sucesso!"
+                )
+
+                print("5 - retornar")
 
                 return arquivo_excel
             
