@@ -30,7 +30,7 @@ def tratar_erro(erro):
 
 # Se não tiver chave para esse erro, coloque essa mensagem
         type(erro),
-        "Ocorreu um erro inesperado"
+        "⚠ Ocorreu um erro inesperado"
     )
 
 # Sequencia lógica de como segue um erro

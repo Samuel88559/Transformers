@@ -1,3 +1,60 @@
+:root{
+
+/* Cores da variável global */
+    --cor-primaria: #15794;
+    --cor-sucesso: #2E7D32;
+    --cor-err: #C62828;
+    --cor-fundo: #F5F7FA;
+    --cor-container: white;
+}
+
 body{
-    background-color: #F5F7FA
+    background-color: var(--cor-fundo);
+    display: flex;
+}
+
+.container{
+
+}
+
+header{
+
+}
+
+h1{
+    color: #015794;
+}
+
+.descricao{
+
+}
+
+form{
+
+}
+
+input{
+
+}
+
+button{
+
+}
+
+.erro{
+
+}
+
+.sucesso{
+
+}
+
+footer{
+
+}
+
+.img{
+    width: 120px;
+    border-radius: 50%;
+    height: auto;
 }
