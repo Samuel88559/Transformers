@@ -176,3 +176,18 @@
 2026-07-20 16:59:33,000 - INFO -  * Restarting with stat
 2026-07-20 16:59:33,486 - WARNING -  * Debugger is active!
 2026-07-20 16:59:33,489 - INFO -  * Debugger PIN: 121-263-462
+2026-07-21 07:00:53,940 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 07:00:53,941 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 07:00:53,942 - INFO -  * Restarting with stat
+2026-07-21 07:00:54,393 - WARNING -  * Debugger is active!
+2026-07-21 07:00:54,395 - INFO -  * Debugger PIN: 141-900-870
+2026-07-21 07:01:01,551 - INFO - 127.0.0.1 - - [21/Jul/2026 07:01:01] "GET / HTTP/1.1" 200 -
+2026-07-21 07:01:01,660 - INFO - 127.0.0.1 - - [21/Jul/2026 07:01:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-21 08:19:59,510 - INFO -  * Detected change in 'C:\\Users\\Luari\\OneDrive\\Desktop\\Projetos\\Transformers - Convertedor de arquivos\\app.py', reloading
+2026-07-21 08:19:59,736 - INFO -  * Restarting with stat
+2026-07-21 08:20:00,578 - WARNING -  * Debugger is active!
+2026-07-21 08:20:00,582 - INFO -  * Debugger PIN: 141-900-870
+2026-07-21 08:20:05,859 - INFO - 127.0.0.1 - - [21/Jul/2026 08:20:05] "GET / HTTP/1.1" 200 -
+2026-07-21 08:20:20,172 - ERROR - 
+2026-07-21 08:20:20,173 - INFO - 127.0.0.1 - - [21/Jul/2026 08:20:20] "POST / HTTP/1.1" 200 -

@@ -27,7 +27,7 @@ def home():
             except Exception as erro:
                  mensagem  = tratar_erro(erro)
 
-                 return mensagem
+                 return render_template("index.html", erro = mensagem)
                 
 
 #Enquanto nada for enviado ainda será um GET, logo, enquanto isso, afim de evitar erro, o programa pula para as linha anteriores para que a página possa ser aberta, carregando a página através do arquivo HTML
