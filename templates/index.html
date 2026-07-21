@@ -3,29 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
     <title>Transformers</title>
 </head>
 <body>
-    <h1>Transformers</h1>
+    <div class="container">
 
-    <form 
-    action = "/"
-    method = "POST"
-    enctype = "multipart/form-data">
+        <header>
+            <h1>Transformers</h1>
+            <p>Coversor de arquivo</p>
+        </header>
 
-        <input
-        type = "file"
-        name = "pdf"
-        placeholder = "Selecione um arquivo PDF">
+        <main></main>
 
-        <button type = "submit">    
-            Enviar
-        </button>
+            <form 
+            action = "/"
+            method = "POST"
+            enctype = "multipart/form-data">
 
-    {% if erro %}
-        <p>{{erro}}</p>
-    {% endif %}
+            <input
+            type = "file"
+            name = "pdf"
+            placeholder = "Selecione um arquivo PDF">
 
-    </form>
+            <button type = "submit">    
+                Enviar
+            </button>
+
+            {% if erro %}
+                <p> ❌ {{erro}}</p>
+            {% endif %}
+
+            </form>
+
+        </main>
+
+        <footer>
+            Versão 1.0 - LUARI EMBALAGENS - PACKAGING SOLUTIONS
+        </footer>
+
+    </div>
 </body>
 </html>
