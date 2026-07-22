@@ -11,13 +11,24 @@
 
         <header>
 
-            <img src="modelos/luari_logo.png" alt="logo da empresa">
+            <div class="cabecalho_superior">
+                <div class="Logo">
+                <figure>
+                <img src="static/assets/luari_logo.png" alt="logo da empresa">
+                </figure>
+            </div>
 
-            <h1>Transformers</h1>
-            <p>Converta automaticamente Ordens de Produção em planilhas de rasteabilidade</p>
+            <h1>TRANSFORMERS</h1>
+            </div>
+
+                <p class="descricao">
+                    Converta automaticamente Ordens de Produção <br>
+                    em planilhas de rasteabilidade
+                </p>
+            
         </header>
 
-        <main></main>
+        <main>
 
             <form 
             action = "/"
@@ -30,20 +41,36 @@
             placeholder = "Selecione a Ordem de Produção (PDF)">
 
             <button type = "submit">    
-                Converter arquivo
+                Converter Ordem de Produção
             </button>
 
+            <!-- <label for="linkinput">URL do site: </label>
+            
+            <input type = "url"
+                    id = "linkInput"
+                    required> -->
+
+            <div class="error">
+                
             {% if erro %}
                 <p> ❌ {{erro}}</p>
             {% endif %}
+
+            </div>
+
 
             </form>
 
         </main>
 
         <footer>
-            Versão 1.0 -
-            LUARI EMBALAGENS - PACKAGING SOLUTIONS
+
+            <div class="rodape">
+                <p>
+                Versão 1.0 -
+                LUARI EMBALAGENS - PACKAGING SOLUTIONS
+                </p>
+            </div>
         </footer>
 
     </div>
