@@ -15,3 +15,6 @@ class FilmeNaoEncontradoerror(Exception):
 
 class ArquivoInvalidoerror(Exception):
     pass
+
+class NenhumArquivoSelecionadoError(Exception):
+    pass

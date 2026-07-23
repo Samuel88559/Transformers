@@ -20,6 +20,6 @@ def converter_pdf(arquivo):
             
             except Exception as erro:
 
-# Registra o erro e envia para o logger afim de que o desenvolvedor saiba qual o erro
+# Registra o erro e envia para o logger afim de que o desenvolvedor saiba qual o erro   
                 registrar_erro(str(erro))
                 raise

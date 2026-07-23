@@ -14,22 +14,41 @@
 }
 
 body{
+    display: flex;
     background-color: var(--cor-fundo);
     font-family: var(--fonte-principal);
-    margin-left: 450px;
+    justify-content: center;
     margin-top: 20px;
+}
+
+.descricao{
+    margin-left: 10px;
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: normal; /*Teste, mas talvez não sirva pra nada*/
 }
 
 .container{
     width: 70%;
     max-width: 900px;
+
+    display: flex;
+    flex-direction: column;
+
     margin-left: 40px;
+
+    min-height: 100vh; /*Faz com que cubra toda a tela*/
+
     box-shadow: 0px 5px 15px rgba(0,0 ,0, 0.2);
-    min-height: 100vh;
     border-radius: var(--borda-arredondada);
 }
 
+main{
+    flex: 1;
+}
+
 header{
+    font-size: 28px;
     display: flex; /*estrutura flex */
     flex-direction: column; /*estrutura de coluna */
     justify-content: space-between; /*estrutura para separar os componentes um do outro, para ter um espaço entre si*/
@@ -42,19 +61,51 @@ header{
     gap: 20px;
 }
 
+figure{
+    margin-left: 10px;
+}
+
+.Logo img{
+    width: 90px; /* Ajuste o tamanho da sua logo */
+    border-radius: 50%;
+    height: auto;
+}
+
+.Logo{
+    cursor: pointer;
+}
+.link-logo img {
+    height: auto;
+    border: none; /* Remove bordas que alguns navegadores colocam em imagens linkadas */
+    display: block;
+}
+
+.link-logo{
+    display: inline-block; /* Faz o link se comportar como um bloco para receber o tamanho da imagem */
+    transition: opacity 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+.link-logo:hover{
+    opacity: 0.8; /* A logo fica levemente transparente */
+}
+
 h1{
     color: var(--cor-primaria);
     font-family: var(--fonte-titulo);
 }
-
- 
 
 /* form{
 
 } */
 
 input{
-    margin-left: 9px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+input:focus{
+    border-color: var(--cor-primaria);
+    outline: none;
 }
 
 button{
@@ -65,6 +116,12 @@ button{
     margin: 20px;
     transition: 0.3s;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+button:active{
+    transform: scale(0.97);
 }
 
 button:hover{
@@ -72,10 +129,16 @@ button:hover{
     color: rgb(179, 168, 168);
 }
 
-.error{
-    background: #e96666;
+.error{padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    margin:20px 10px;
+    background: #fdeaea;
     border-radius: var(--borda-arredondada);
     display: inline-block;
+    border: 3px solid var(--cor-erro);
+    color: var(--cor-erro);
+    padding: 12px;
 }
 
 /* .sucesso{
@@ -83,22 +146,20 @@ button:hover{
 } */
 
 footer{
+    font-size: 20px;
     bottom: 0;
     width: 100%;
-    padding-left: 10px;
-    padding-top: 620px;
+    margin-left: 10px;
+    margin-bottom: 30px;
 } 
 
-.rodape{
-    margin-bottom: 30px;
+.ou{
+    margin-left: 10px;
 }
 
-figure{
-    margin: 15%;
+label{
+    margin: 10px;
+    display: block;
 }
 
-.Logo img{
-    width: 90px;
-    border-radius: 50%;
-    height: auto;
-}
+

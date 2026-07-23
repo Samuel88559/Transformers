@@ -12,19 +12,20 @@
         <header>
 
             <div class="cabecalho_superior">
-                <div class="Logo">
-                <figure>
-                <img src="static/assets/luari_logo.png" alt="logo da empresa">
-                </figure>
+                    <div class="Logo">
+                        <a href="https://luariembalagens.com.br/?utm_source=google&utm_campaign=12618774406&gad_source=1&gad_campaignid=12618774406&gbraid=0AAAAACpdmGCrvGrMjnAFL_ZZPkCcJBeif&gclid=Cj0KCQjw94bTBhDQARIsAN3vv0zBh1iNCcTCxNqtm20ZN3-MAuIWKaNn7ZwQRzOzOU_7dj3l78uOQBcaAoOLEALw_wcB" class="link-logo">
+                            <figure>
+                                <img src="static/assets/luari_logo.png" alt="logo da empresa">
+                            </figure>
+                        </a>
+                    </div>    
+                <h1>TRANSFORMERS</h1>
             </div>
 
-            <h1>TRANSFORMERS</h1>
-            </div>
-
-                <p class="descricao">
+                <h2 class="descricao">
                     Converta automaticamente Ordens de Produção <br>
                     em planilhas de rasteabilidade
-                </p>
+                </h2>
             
         </header>
 
@@ -35,28 +36,40 @@
             method = "POST"
             enctype = "multipart/form-data">
 
-            <input
-            type = "file"
-            name = "pdf"
-            placeholder = "Selecione a Ordem de Produção (PDF)">
+                <input
+                type = "file"
+                name = "pdf"
+                placeholder = "Selecione a Ordem de Produção (PDF)">
 
-            <button type = "submit">    
-                Converter Ordem de Produção
-            </button>
+                <p class="ou">──────── ou ────────</p>
 
-            <!-- <label for="linkinput">URL do site: </label>
-            
-            <input type = "url"
-                    id = "linkInput"
-                    required> -->
-
-            <div class="error">
+                <label for="link">
+                    URL da planilha: 
+                </label>
                 
-            {% if erro %}
-                <p> ❌ {{erro}}</p>
-            {% endif %}
+                <input type = "url"
+                        id = "link"
+                        placeholder="https://docs.google.com/..."
+                        disabled>
 
-            </div>
+                <button type = "submit">    
+                    Converter Ordem de Produção
+                </button>
+
+                {% if erro %}
+
+                <div class="error">
+                    
+                    {% if erro == "Ocorreu um erro inesperado" %}
+                        <p> ⚠ {{erro}}</p>
+                    {%elif erro %}
+                        <p>❌ {{erro}}</p>
+                    {% endif %}
+
+                </div>
+
+                {% endif %}
+            
 
 
             </form>
@@ -68,7 +81,7 @@
             <div class="rodape">
                 <p>
                 Versão 1.0 -
-                LUARI EMBALAGENS - PACKAGING SOLUTIONS
+                LUARI EMBALAGENS - PACKAGING SOLUTIONS ©
                 </p>
             </div>
         </footer>

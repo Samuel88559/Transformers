@@ -1391,3 +1391,845 @@
 2026-07-22 16:52:43,501 - INFO - 127.0.0.1 - - [22/Jul/2026 16:52:43] "GET / HTTP/1.1" 200 -
 2026-07-22 16:52:43,514 - INFO - 127.0.0.1 - - [22/Jul/2026 16:52:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2026-07-22 16:52:43,515 - INFO - 127.0.0.1 - - [22/Jul/2026 16:52:43] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:02:32,509 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-23 07:02:32,509 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-23 07:02:32,512 - INFO -  * Restarting with stat
+2026-07-23 07:02:32,961 - WARNING -  * Debugger is active!
+2026-07-23 07:02:32,964 - INFO -  * Debugger PIN: 141-900-870
+2026-07-23 07:02:32,985 - INFO - 127.0.0.1 - - [23/Jul/2026 07:02:32] "GET / HTTP/1.1" 200 -
+2026-07-23 07:02:32,999 - INFO - 127.0.0.1 - - [23/Jul/2026 07:02:32] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:02:32,999 - INFO - 127.0.0.1 - - [23/Jul/2026 07:02:32] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:02:33,021 - INFO - 127.0.0.1 - - [23/Jul/2026 07:02:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-23 07:04:23,348 - INFO - 127.0.0.1 - - [23/Jul/2026 07:04:23] "GET / HTTP/1.1" 200 -
+2026-07-23 07:04:23,359 - INFO - 127.0.0.1 - - [23/Jul/2026 07:04:23] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:04:23,361 - INFO - 127.0.0.1 - - [23/Jul/2026 07:04:23] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:04:25,883 - INFO - 127.0.0.1 - - [23/Jul/2026 07:04:25] "GET / HTTP/1.1" 200 -
+2026-07-23 07:04:25,891 - INFO - 127.0.0.1 - - [23/Jul/2026 07:04:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 07:04:25,893 - INFO - 127.0.0.1 - - [23/Jul/2026 07:04:25] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:07:13,586 - INFO - 127.0.0.1 - - [23/Jul/2026 07:07:13] "GET / HTTP/1.1" 200 -
+2026-07-23 07:07:13,600 - INFO - 127.0.0.1 - - [23/Jul/2026 07:07:13] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:07:13,601 - INFO - 127.0.0.1 - - [23/Jul/2026 07:07:13] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:07:53,526 - INFO - 127.0.0.1 - - [23/Jul/2026 07:07:53] "GET / HTTP/1.1" 200 -
+2026-07-23 07:07:53,574 - INFO - 127.0.0.1 - - [23/Jul/2026 07:07:53] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:07:53,574 - INFO - 127.0.0.1 - - [23/Jul/2026 07:07:53] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:08:25,340 - INFO - 127.0.0.1 - - [23/Jul/2026 07:08:25] "GET / HTTP/1.1" 200 -
+2026-07-23 07:08:25,353 - INFO - 127.0.0.1 - - [23/Jul/2026 07:08:25] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:08:25,354 - INFO - 127.0.0.1 - - [23/Jul/2026 07:08:25] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:09:23,857 - INFO - 127.0.0.1 - - [23/Jul/2026 07:09:23] "GET / HTTP/1.1" 200 -
+2026-07-23 07:09:23,865 - INFO - 127.0.0.1 - - [23/Jul/2026 07:09:23] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:09:23,867 - INFO - 127.0.0.1 - - [23/Jul/2026 07:09:23] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:09:35,944 - INFO - 127.0.0.1 - - [23/Jul/2026 07:09:35] "GET / HTTP/1.1" 200 -
+2026-07-23 07:09:35,953 - INFO - 127.0.0.1 - - [23/Jul/2026 07:09:35] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:09:35,954 - INFO - 127.0.0.1 - - [23/Jul/2026 07:09:35] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:09:36,806 - INFO - 127.0.0.1 - - [23/Jul/2026 07:09:36] "GET / HTTP/1.1" 200 -
+2026-07-23 07:09:36,815 - INFO - 127.0.0.1 - - [23/Jul/2026 07:09:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 07:09:36,816 - INFO - 127.0.0.1 - - [23/Jul/2026 07:09:36] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:10:37,008 - INFO - 127.0.0.1 - - [23/Jul/2026 07:10:37] "GET / HTTP/1.1" 200 -
+2026-07-23 07:10:37,020 - INFO - 127.0.0.1 - - [23/Jul/2026 07:10:37] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:10:37,020 - INFO - 127.0.0.1 - - [23/Jul/2026 07:10:37] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:10:38,328 - INFO - 127.0.0.1 - - [23/Jul/2026 07:10:38] "GET / HTTP/1.1" 200 -
+2026-07-23 07:10:38,339 - INFO - 127.0.0.1 - - [23/Jul/2026 07:10:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 07:10:38,340 - INFO - 127.0.0.1 - - [23/Jul/2026 07:10:38] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:10:58,587 - INFO - 127.0.0.1 - - [23/Jul/2026 07:10:58] "GET / HTTP/1.1" 200 -
+2026-07-23 07:10:58,597 - INFO - 127.0.0.1 - - [23/Jul/2026 07:10:58] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:10:58,598 - INFO - 127.0.0.1 - - [23/Jul/2026 07:10:58] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:11:07,023 - INFO - 127.0.0.1 - - [23/Jul/2026 07:11:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 07:11:07,142 - INFO - 127.0.0.1 - - [23/Jul/2026 07:11:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-23 07:11:59,545 - INFO - 127.0.0.1 - - [23/Jul/2026 07:11:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-23 07:14:45,165 - INFO - 127.0.0.1 - - [23/Jul/2026 07:14:45] "GET / HTTP/1.1" 200 -
+2026-07-23 07:14:45,185 - INFO - 127.0.0.1 - - [23/Jul/2026 07:14:45] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:14:45,189 - INFO - 127.0.0.1 - - [23/Jul/2026 07:14:45] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:15:07,351 - INFO - 127.0.0.1 - - [23/Jul/2026 07:15:07] "GET / HTTP/1.1" 200 -
+2026-07-23 07:15:07,359 - INFO - 127.0.0.1 - - [23/Jul/2026 07:15:07] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:15:07,360 - INFO - 127.0.0.1 - - [23/Jul/2026 07:15:07] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:15:26,887 - INFO - 127.0.0.1 - - [23/Jul/2026 07:15:26] "GET / HTTP/1.1" 200 -
+2026-07-23 07:15:26,896 - INFO - 127.0.0.1 - - [23/Jul/2026 07:15:26] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:15:26,897 - INFO - 127.0.0.1 - - [23/Jul/2026 07:15:26] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:15:55,550 - INFO - 127.0.0.1 - - [23/Jul/2026 07:15:55] "GET / HTTP/1.1" 200 -
+2026-07-23 07:15:55,559 - INFO - 127.0.0.1 - - [23/Jul/2026 07:15:55] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 07:15:55,561 - INFO - 127.0.0.1 - - [23/Jul/2026 07:15:55] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:56:27,596 - INFO - 127.0.0.1 - - [23/Jul/2026 07:56:27] "GET / HTTP/1.1" 200 -
+2026-07-23 07:56:27,611 - INFO - 127.0.0.1 - - [23/Jul/2026 07:56:27] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 07:56:27,611 - INFO - 127.0.0.1 - - [23/Jul/2026 07:56:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 07:56:33,315 - INFO - 127.0.0.1 - - [23/Jul/2026 07:56:33] "GET / HTTP/1.1" 200 -
+2026-07-23 07:56:33,329 - INFO - 127.0.0.1 - - [23/Jul/2026 07:56:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 07:56:33,334 - INFO - 127.0.0.1 - - [23/Jul/2026 07:56:33] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:00:36,299 - INFO - 127.0.0.1 - - [23/Jul/2026 08:00:36] "GET / HTTP/1.1" 200 -
+2026-07-23 08:00:36,308 - INFO - 127.0.0.1 - - [23/Jul/2026 08:00:36] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:00:36,309 - INFO - 127.0.0.1 - - [23/Jul/2026 08:00:36] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:06:05,759 - INFO - 127.0.0.1 - - [23/Jul/2026 08:06:05] "GET / HTTP/1.1" 200 -
+2026-07-23 08:06:05,788 - INFO - 127.0.0.1 - - [23/Jul/2026 08:06:05] "[33mGET /assets/luari_logo.png HTTP/1.1[0m" 404 -
+2026-07-23 08:06:05,790 - INFO - 127.0.0.1 - - [23/Jul/2026 08:06:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:06:05,793 - INFO - 127.0.0.1 - - [23/Jul/2026 08:06:05] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:07:11,116 - INFO - 127.0.0.1 - - [23/Jul/2026 08:07:11] "GET / HTTP/1.1" 200 -
+2026-07-23 08:07:11,131 - INFO - 127.0.0.1 - - [23/Jul/2026 08:07:11] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:07:11,132 - INFO - 127.0.0.1 - - [23/Jul/2026 08:07:11] "[33mGET /assets/luari_logo.png HTTP/1.1[0m" 404 -
+2026-07-23 08:07:11,134 - INFO - 127.0.0.1 - - [23/Jul/2026 08:07:11] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:07:11,864 - INFO - 127.0.0.1 - - [23/Jul/2026 08:07:11] "GET / HTTP/1.1" 200 -
+2026-07-23 08:07:11,876 - INFO - 127.0.0.1 - - [23/Jul/2026 08:07:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:07:11,880 - INFO - 127.0.0.1 - - [23/Jul/2026 08:07:11] "[33mGET /assets/luari_logo.png HTTP/1.1[0m" 404 -
+2026-07-23 08:07:11,881 - INFO - 127.0.0.1 - - [23/Jul/2026 08:07:11] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:11:17,129 - INFO - 127.0.0.1 - - [23/Jul/2026 08:11:17] "GET / HTTP/1.1" 200 -
+2026-07-23 08:11:17,179 - INFO - 127.0.0.1 - - [23/Jul/2026 08:11:17] "[33mGET /assets/luari_logo.png HTTP/1.1[0m" 404 -
+2026-07-23 08:11:17,181 - INFO - 127.0.0.1 - - [23/Jul/2026 08:11:17] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:11:17,182 - INFO - 127.0.0.1 - - [23/Jul/2026 08:11:17] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:11:18,108 - INFO - 127.0.0.1 - - [23/Jul/2026 08:11:18] "GET / HTTP/1.1" 200 -
+2026-07-23 08:11:18,118 - INFO - 127.0.0.1 - - [23/Jul/2026 08:11:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:11:18,120 - INFO - 127.0.0.1 - - [23/Jul/2026 08:11:18] "[33mGET /assets/luari_logo.png HTTP/1.1[0m" 404 -
+2026-07-23 08:11:18,121 - INFO - 127.0.0.1 - - [23/Jul/2026 08:11:18] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:11:19,451 - INFO - 127.0.0.1 - - [23/Jul/2026 08:11:19] "GET / HTTP/1.1" 200 -
+2026-07-23 08:11:19,461 - INFO - 127.0.0.1 - - [23/Jul/2026 08:11:19] "[33mGET /assets/luari_logo.png HTTP/1.1[0m" 404 -
+2026-07-23 08:11:19,462 - INFO - 127.0.0.1 - - [23/Jul/2026 08:11:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:11:19,463 - INFO - 127.0.0.1 - - [23/Jul/2026 08:11:19] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:12:34,967 - INFO - 127.0.0.1 - - [23/Jul/2026 08:12:34] "GET / HTTP/1.1" 200 -
+2026-07-23 08:12:34,978 - INFO - 127.0.0.1 - - [23/Jul/2026 08:12:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:12:34,979 - INFO - 127.0.0.1 - - [23/Jul/2026 08:12:34] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:13:42,368 - INFO - 127.0.0.1 - - [23/Jul/2026 08:13:42] "GET / HTTP/1.1" 200 -
+2026-07-23 08:13:42,380 - INFO - 127.0.0.1 - - [23/Jul/2026 08:13:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:13:42,382 - INFO - 127.0.0.1 - - [23/Jul/2026 08:13:42] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:14:48,075 - INFO - 127.0.0.1 - - [23/Jul/2026 08:14:48] "GET / HTTP/1.1" 200 -
+2026-07-23 08:14:48,088 - INFO - 127.0.0.1 - - [23/Jul/2026 08:14:48] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:14:48,089 - INFO - 127.0.0.1 - - [23/Jul/2026 08:14:48] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:14:48,960 - INFO - 127.0.0.1 - - [23/Jul/2026 08:14:48] "GET / HTTP/1.1" 200 -
+2026-07-23 08:14:48,973 - INFO - 127.0.0.1 - - [23/Jul/2026 08:14:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:14:48,973 - INFO - 127.0.0.1 - - [23/Jul/2026 08:14:48] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:15:14,052 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:14] "GET / HTTP/1.1" 200 -
+2026-07-23 08:15:14,068 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:14] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:15:14,068 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:14] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:15:31,850 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:31] "GET / HTTP/1.1" 200 -
+2026-07-23 08:15:31,890 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:31] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:15:31,891 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:31] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:15:45,329 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:45] "GET / HTTP/1.1" 200 -
+2026-07-23 08:15:45,341 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:45] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:15:45,343 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:45] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:15:45,799 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:45] "GET / HTTP/1.1" 200 -
+2026-07-23 08:15:45,810 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:15:45,811 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:45] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:15:46,291 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:46] "GET / HTTP/1.1" 200 -
+2026-07-23 08:15:46,328 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:15:46,328 - INFO - 127.0.0.1 - - [23/Jul/2026 08:15:46] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:18:34,899 - INFO - 127.0.0.1 - - [23/Jul/2026 08:18:34] "GET / HTTP/1.1" 200 -
+2026-07-23 08:18:34,910 - INFO - 127.0.0.1 - - [23/Jul/2026 08:18:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:18:34,911 - INFO - 127.0.0.1 - - [23/Jul/2026 08:18:34] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:18:35,610 - INFO - 127.0.0.1 - - [23/Jul/2026 08:18:35] "GET / HTTP/1.1" 200 -
+2026-07-23 08:18:35,619 - INFO - 127.0.0.1 - - [23/Jul/2026 08:18:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:18:35,621 - INFO - 127.0.0.1 - - [23/Jul/2026 08:18:35] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:20:02,506 - INFO - 127.0.0.1 - - [23/Jul/2026 08:20:02] "GET / HTTP/1.1" 200 -
+2026-07-23 08:20:02,517 - INFO - 127.0.0.1 - - [23/Jul/2026 08:20:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:20:02,518 - INFO - 127.0.0.1 - - [23/Jul/2026 08:20:02] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:21:26,448 - INFO - 127.0.0.1 - - [23/Jul/2026 08:21:26] "GET / HTTP/1.1" 200 -
+2026-07-23 08:21:26,458 - INFO - 127.0.0.1 - - [23/Jul/2026 08:21:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:21:26,459 - INFO - 127.0.0.1 - - [23/Jul/2026 08:21:26] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:23:02,611 - ERROR - 
+2026-07-23 08:23:02,612 - INFO - 127.0.0.1 - - [23/Jul/2026 08:23:02] "POST / HTTP/1.1" 200 -
+2026-07-23 08:23:02,623 - INFO - 127.0.0.1 - - [23/Jul/2026 08:23:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:23:02,624 - INFO - 127.0.0.1 - - [23/Jul/2026 08:23:02] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:23:14,486 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:23:14,486 - INFO - 127.0.0.1 - - [23/Jul/2026 08:23:14] "POST / HTTP/1.1" 200 -
+2026-07-23 08:23:14,501 - INFO - 127.0.0.1 - - [23/Jul/2026 08:23:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:23:14,502 - INFO - 127.0.0.1 - - [23/Jul/2026 08:23:14] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:29:48,877 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:29:48,878 - INFO - 127.0.0.1 - - [23/Jul/2026 08:29:48] "POST / HTTP/1.1" 200 -
+2026-07-23 08:29:48,890 - INFO - 127.0.0.1 - - [23/Jul/2026 08:29:48] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:29:48,891 - INFO - 127.0.0.1 - - [23/Jul/2026 08:29:48] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:30:46,892 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:30:46,893 - INFO - 127.0.0.1 - - [23/Jul/2026 08:30:46] "POST / HTTP/1.1" 200 -
+2026-07-23 08:30:46,905 - INFO - 127.0.0.1 - - [23/Jul/2026 08:30:46] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:30:46,905 - INFO - 127.0.0.1 - - [23/Jul/2026 08:30:46] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:35:22,550 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:35:22,551 - INFO - 127.0.0.1 - - [23/Jul/2026 08:35:22] "POST / HTTP/1.1" 200 -
+2026-07-23 08:35:22,568 - INFO - 127.0.0.1 - - [23/Jul/2026 08:35:22] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:35:22,568 - INFO - 127.0.0.1 - - [23/Jul/2026 08:35:22] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:36:13,100 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:36:13,101 - INFO - 127.0.0.1 - - [23/Jul/2026 08:36:13] "POST / HTTP/1.1" 200 -
+2026-07-23 08:36:13,116 - INFO - 127.0.0.1 - - [23/Jul/2026 08:36:13] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:36:13,116 - INFO - 127.0.0.1 - - [23/Jul/2026 08:36:13] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:37:36,250 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:37:36,251 - INFO - 127.0.0.1 - - [23/Jul/2026 08:37:36] "POST / HTTP/1.1" 200 -
+2026-07-23 08:37:36,262 - INFO - 127.0.0.1 - - [23/Jul/2026 08:37:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:37:36,263 - INFO - 127.0.0.1 - - [23/Jul/2026 08:37:36] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:37:43,077 - INFO -  * Detected change in 'C:\\Users\\Luari\\OneDrive\\Desktop\\Projetos\\Transformers - Convertedor de arquivos\\servicos\\conversor.py', reloading
+2026-07-23 08:37:43,255 - INFO -  * Restarting with stat
+2026-07-23 08:37:43,974 - WARNING -  * Debugger is active!
+2026-07-23 08:37:43,976 - INFO -  * Debugger PIN: 141-900-870
+2026-07-23 08:37:47,929 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:37:47,934 - INFO - 127.0.0.1 - - [23/Jul/2026 08:37:47] "POST / HTTP/1.1" 200 -
+2026-07-23 08:37:47,948 - INFO - 127.0.0.1 - - [23/Jul/2026 08:37:47] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:37:47,949 - INFO - 127.0.0.1 - - [23/Jul/2026 08:37:47] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:41:00,037 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:41:00,086 - INFO - 127.0.0.1 - - [23/Jul/2026 08:41:00] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2026-07-23 08:41:00,100 - INFO - 127.0.0.1 - - [23/Jul/2026 08:41:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:41:00,101 - INFO - 127.0.0.1 - - [23/Jul/2026 08:41:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-23 08:41:00,116 - INFO - 127.0.0.1 - - [23/Jul/2026 08:41:00] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=cIqOAwNyxIOoXnIflkpN HTTP/1.1" 200 -
+2026-07-23 08:41:00,185 - INFO - 127.0.0.1 - - [23/Jul/2026 08:41:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-23 08:41:21,440 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-23 08:41:21,441 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-23 08:41:21,442 - INFO -  * Restarting with stat
+2026-07-23 08:41:21,856 - WARNING -  * Debugger is active!
+2026-07-23 08:41:21,858 - INFO -  * Debugger PIN: 141-900-870
+2026-07-23 08:44:43,556 - ERROR - 
+2026-07-23 08:44:43,594 - INFO - 127.0.0.1 - - [23/Jul/2026 08:44:43] "POST / HTTP/1.1" 200 -
+2026-07-23 08:44:43,604 - INFO - 127.0.0.1 - - [23/Jul/2026 08:44:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:44:43,605 - INFO - 127.0.0.1 - - [23/Jul/2026 08:44:43] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:44:47,184 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:44:47,185 - INFO - 127.0.0.1 - - [23/Jul/2026 08:44:47] "POST / HTTP/1.1" 200 -
+2026-07-23 08:44:47,198 - INFO - 127.0.0.1 - - [23/Jul/2026 08:44:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:44:47,203 - INFO - 127.0.0.1 - - [23/Jul/2026 08:44:47] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:45:08,327 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:45:08,328 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:08] "POST / HTTP/1.1" 200 -
+2026-07-23 08:45:08,342 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:45:08,344 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:08] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:45:09,213 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:45:09,214 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:09] "POST / HTTP/1.1" 200 -
+2026-07-23 08:45:09,226 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:45:09,230 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:09] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:45:13,764 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:13] "GET / HTTP/1.1" 200 -
+2026-07-23 08:45:13,783 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:45:13,783 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:13] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:45:15,017 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:45:15,018 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:15] "POST / HTTP/1.1" 200 -
+2026-07-23 08:45:15,032 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:45:15,034 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:15] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:45:24,090 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:45:24,094 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:24] "POST / HTTP/1.1" 200 -
+2026-07-23 08:45:24,111 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:45:24,115 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:24] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:45:24,942 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:45:24,943 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:24] "POST / HTTP/1.1" 200 -
+2026-07-23 08:45:24,956 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:45:24,957 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:24] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:45:30,661 - ERROR - 
+2026-07-23 08:45:30,662 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:30] "POST / HTTP/1.1" 200 -
+2026-07-23 08:45:30,673 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:45:30,674 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:30] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:45:32,352 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:45:32,352 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:32] "POST / HTTP/1.1" 200 -
+2026-07-23 08:45:32,367 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:45:32,371 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:32] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:45:33,361 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:45:33,362 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:33] "POST / HTTP/1.1" 200 -
+2026-07-23 08:45:33,377 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:45:33,378 - INFO - 127.0.0.1 - - [23/Jul/2026 08:45:33] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:49:51,279 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:49:51,280 - INFO - 127.0.0.1 - - [23/Jul/2026 08:49:51] "POST / HTTP/1.1" 200 -
+2026-07-23 08:49:51,300 - INFO - 127.0.0.1 - - [23/Jul/2026 08:49:51] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:49:51,303 - INFO - 127.0.0.1 - - [23/Jul/2026 08:49:51] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:50:28,858 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:50:28,859 - INFO - 127.0.0.1 - - [23/Jul/2026 08:50:28] "POST / HTTP/1.1" 200 -
+2026-07-23 08:50:28,887 - INFO - 127.0.0.1 - - [23/Jul/2026 08:50:28] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:50:28,887 - INFO - 127.0.0.1 - - [23/Jul/2026 08:50:28] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:50:53,710 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 08:50:53,711 - INFO - 127.0.0.1 - - [23/Jul/2026 08:50:53] "POST / HTTP/1.1" 200 -
+2026-07-23 08:50:53,726 - INFO - 127.0.0.1 - - [23/Jul/2026 08:50:53] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 08:50:53,726 - INFO - 127.0.0.1 - - [23/Jul/2026 08:50:53] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 08:54:13,509 - ERROR - 
+2026-07-23 08:54:13,510 - INFO - 127.0.0.1 - - [23/Jul/2026 08:54:13] "POST / HTTP/1.1" 200 -
+2026-07-23 08:54:13,518 - INFO - 127.0.0.1 - - [23/Jul/2026 08:54:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 08:54:13,519 - INFO - 127.0.0.1 - - [23/Jul/2026 08:54:13] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:10:53,250 - ERROR - 
+2026-07-23 09:10:53,253 - INFO - 127.0.0.1 - - [23/Jul/2026 09:10:53] "POST / HTTP/1.1" 200 -
+2026-07-23 09:10:53,264 - INFO - 127.0.0.1 - - [23/Jul/2026 09:10:53] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:10:53,266 - INFO - 127.0.0.1 - - [23/Jul/2026 09:10:53] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:11:22,457 - ERROR - 
+2026-07-23 09:11:22,458 - INFO - 127.0.0.1 - - [23/Jul/2026 09:11:22] "POST / HTTP/1.1" 200 -
+2026-07-23 09:11:22,468 - INFO - 127.0.0.1 - - [23/Jul/2026 09:11:22] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:11:22,469 - INFO - 127.0.0.1 - - [23/Jul/2026 09:11:22] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:12:05,612 - ERROR - 
+2026-07-23 09:12:05,612 - INFO - 127.0.0.1 - - [23/Jul/2026 09:12:05] "POST / HTTP/1.1" 200 -
+2026-07-23 09:12:05,622 - INFO - 127.0.0.1 - - [23/Jul/2026 09:12:05] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:12:05,624 - INFO - 127.0.0.1 - - [23/Jul/2026 09:12:05] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:12:14,789 - ERROR - 
+2026-07-23 09:12:14,789 - INFO - 127.0.0.1 - - [23/Jul/2026 09:12:14] "POST / HTTP/1.1" 200 -
+2026-07-23 09:12:14,798 - INFO - 127.0.0.1 - - [23/Jul/2026 09:12:14] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:12:14,800 - INFO - 127.0.0.1 - - [23/Jul/2026 09:12:14] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:12:43,593 - ERROR - 
+2026-07-23 09:12:43,594 - INFO - 127.0.0.1 - - [23/Jul/2026 09:12:43] "POST / HTTP/1.1" 200 -
+2026-07-23 09:12:43,604 - INFO - 127.0.0.1 - - [23/Jul/2026 09:12:43] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:12:43,605 - INFO - 127.0.0.1 - - [23/Jul/2026 09:12:43] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:13:03,603 - ERROR - 
+2026-07-23 09:13:03,603 - INFO - 127.0.0.1 - - [23/Jul/2026 09:13:03] "POST / HTTP/1.1" 200 -
+2026-07-23 09:13:03,612 - INFO - 127.0.0.1 - - [23/Jul/2026 09:13:03] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:13:03,613 - INFO - 127.0.0.1 - - [23/Jul/2026 09:13:03] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:13:16,023 - ERROR - 
+2026-07-23 09:13:16,024 - INFO - 127.0.0.1 - - [23/Jul/2026 09:13:16] "POST / HTTP/1.1" 200 -
+2026-07-23 09:13:16,041 - INFO - 127.0.0.1 - - [23/Jul/2026 09:13:16] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:13:16,051 - INFO - 127.0.0.1 - - [23/Jul/2026 09:13:16] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:14:01,075 - ERROR - 
+2026-07-23 09:14:01,076 - INFO - 127.0.0.1 - - [23/Jul/2026 09:14:01] "POST / HTTP/1.1" 200 -
+2026-07-23 09:14:01,085 - INFO - 127.0.0.1 - - [23/Jul/2026 09:14:01] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:14:01,086 - INFO - 127.0.0.1 - - [23/Jul/2026 09:14:01] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:14:45,123 - ERROR - 
+2026-07-23 09:14:45,124 - INFO - 127.0.0.1 - - [23/Jul/2026 09:14:45] "POST / HTTP/1.1" 200 -
+2026-07-23 09:14:45,132 - INFO - 127.0.0.1 - - [23/Jul/2026 09:14:45] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:14:45,135 - INFO - 127.0.0.1 - - [23/Jul/2026 09:14:45] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:15:31,067 - ERROR - 
+2026-07-23 09:15:31,068 - INFO - 127.0.0.1 - - [23/Jul/2026 09:15:31] "POST / HTTP/1.1" 200 -
+2026-07-23 09:15:31,079 - INFO - 127.0.0.1 - - [23/Jul/2026 09:15:31] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:15:31,080 - INFO - 127.0.0.1 - - [23/Jul/2026 09:15:31] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:15:41,514 - ERROR - 
+2026-07-23 09:15:41,515 - INFO - 127.0.0.1 - - [23/Jul/2026 09:15:41] "POST / HTTP/1.1" 200 -
+2026-07-23 09:15:41,526 - INFO - 127.0.0.1 - - [23/Jul/2026 09:15:41] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:15:41,528 - INFO - 127.0.0.1 - - [23/Jul/2026 09:15:41] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:15:48,596 - ERROR - 
+2026-07-23 09:15:48,597 - INFO - 127.0.0.1 - - [23/Jul/2026 09:15:48] "POST / HTTP/1.1" 200 -
+2026-07-23 09:15:48,606 - INFO - 127.0.0.1 - - [23/Jul/2026 09:15:48] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:15:48,607 - INFO - 127.0.0.1 - - [23/Jul/2026 09:15:48] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:05,243 - ERROR - 
+2026-07-23 09:18:05,243 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:05] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:05,253 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:05] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:18:05,254 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:05] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:09,128 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:09,129 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:09] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:09,143 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:09,144 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:09] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:10,397 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:10,398 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:10] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:10,409 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:10,411 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:10] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:11,264 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:11,264 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:11] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:11,279 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:11,280 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:11] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:11,781 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:11,781 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:11] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:11,792 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:11,793 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:11] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:12,366 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:12,367 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:12] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:12,380 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:12,382 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:12] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:12,919 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:12,920 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:12] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:12,934 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:12,934 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:12] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:21,308 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:21,308 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:21] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:21,323 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:21,326 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:21] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:21,835 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:21,836 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:21] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:21,847 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:21,850 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:21] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:22,193 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:22,194 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:22] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:22,208 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:22,210 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:22] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:22,542 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:22,542 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:22] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:22,555 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:22,556 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:22] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:22,962 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:22,963 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:22] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:22,977 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:22,982 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:22] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:23,460 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:23,461 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:23] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:23,475 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:23,477 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:23] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:23,996 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:23,997 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:23] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:24,010 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:24,012 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:24] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:18:24,443 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:18:24,444 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:24] "POST / HTTP/1.1" 200 -
+2026-07-23 09:18:24,456 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:18:24,458 - INFO - 127.0.0.1 - - [23/Jul/2026 09:18:24] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:19:49,175 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:19:49,176 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:49] "POST / HTTP/1.1" 200 -
+2026-07-23 09:19:49,189 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:49] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:19:49,189 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:49] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:19:56,307 - ERROR - 
+2026-07-23 09:19:56,308 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:56] "POST / HTTP/1.1" 200 -
+2026-07-23 09:19:56,318 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:19:56,320 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:56] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:19:57,273 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:19:57,274 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:57] "POST / HTTP/1.1" 200 -
+2026-07-23 09:19:57,318 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:19:57,319 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:57] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:19:58,071 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:19:58,073 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:58] "POST / HTTP/1.1" 200 -
+2026-07-23 09:19:58,085 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:19:58,086 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:58] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:19:58,639 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:19:58,639 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:58] "POST / HTTP/1.1" 200 -
+2026-07-23 09:19:58,652 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:19:58,653 - INFO - 127.0.0.1 - - [23/Jul/2026 09:19:58] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:20:22,211 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:20:22,212 - INFO - 127.0.0.1 - - [23/Jul/2026 09:20:22] "POST / HTTP/1.1" 200 -
+2026-07-23 09:20:22,227 - INFO - 127.0.0.1 - - [23/Jul/2026 09:20:22] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:20:22,227 - INFO - 127.0.0.1 - - [23/Jul/2026 09:20:22] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:20:26,851 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:20:26,852 - INFO - 127.0.0.1 - - [23/Jul/2026 09:20:26] "POST / HTTP/1.1" 200 -
+2026-07-23 09:20:26,866 - INFO - 127.0.0.1 - - [23/Jul/2026 09:20:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:20:26,867 - INFO - 127.0.0.1 - - [23/Jul/2026 09:20:26] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:20:39,238 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:20:39,238 - INFO - 127.0.0.1 - - [23/Jul/2026 09:20:39] "POST / HTTP/1.1" 200 -
+2026-07-23 09:20:39,252 - INFO - 127.0.0.1 - - [23/Jul/2026 09:20:39] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:20:39,253 - INFO - 127.0.0.1 - - [23/Jul/2026 09:20:39] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:20:50,124 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 09:20:50,125 - INFO - 127.0.0.1 - - [23/Jul/2026 09:20:50] "POST / HTTP/1.1" 200 -
+2026-07-23 09:20:50,137 - INFO - 127.0.0.1 - - [23/Jul/2026 09:20:50] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 09:20:50,139 - INFO - 127.0.0.1 - - [23/Jul/2026 09:20:50] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 09:21:01,646 - ERROR - 
+2026-07-23 09:21:01,646 - INFO - 127.0.0.1 - - [23/Jul/2026 09:21:01] "POST / HTTP/1.1" 200 -
+2026-07-23 09:21:01,655 - INFO - 127.0.0.1 - - [23/Jul/2026 09:21:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 09:21:01,655 - INFO - 127.0.0.1 - - [23/Jul/2026 09:21:01] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:03:38,571 - ERROR - 
+2026-07-23 11:03:38,578 - INFO - 127.0.0.1 - - [23/Jul/2026 11:03:38] "POST / HTTP/1.1" 200 -
+2026-07-23 11:03:38,594 - INFO - 127.0.0.1 - - [23/Jul/2026 11:03:38] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:03:38,596 - INFO - 127.0.0.1 - - [23/Jul/2026 11:03:38] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:04:09,689 - ERROR - 
+2026-07-23 11:04:09,689 - INFO - 127.0.0.1 - - [23/Jul/2026 11:04:09] "POST / HTTP/1.1" 200 -
+2026-07-23 11:04:09,702 - INFO - 127.0.0.1 - - [23/Jul/2026 11:04:09] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:04:09,702 - INFO - 127.0.0.1 - - [23/Jul/2026 11:04:09] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:04:17,665 - ERROR - 
+2026-07-23 11:04:17,665 - INFO - 127.0.0.1 - - [23/Jul/2026 11:04:17] "POST / HTTP/1.1" 200 -
+2026-07-23 11:04:17,676 - INFO - 127.0.0.1 - - [23/Jul/2026 11:04:17] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:04:17,677 - INFO - 127.0.0.1 - - [23/Jul/2026 11:04:17] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:31:30,791 - ERROR - 
+2026-07-23 11:31:30,792 - INFO - 127.0.0.1 - - [23/Jul/2026 11:31:30] "POST / HTTP/1.1" 200 -
+2026-07-23 11:31:30,803 - INFO - 127.0.0.1 - - [23/Jul/2026 11:31:30] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:31:30,805 - INFO - 127.0.0.1 - - [23/Jul/2026 11:31:30] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:31:49,091 - ERROR - 
+2026-07-23 11:31:49,091 - INFO - 127.0.0.1 - - [23/Jul/2026 11:31:49] "POST / HTTP/1.1" 200 -
+2026-07-23 11:31:49,101 - INFO - 127.0.0.1 - - [23/Jul/2026 11:31:49] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:31:49,103 - INFO - 127.0.0.1 - - [23/Jul/2026 11:31:49] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:32:24,010 - ERROR - 
+2026-07-23 11:32:24,010 - INFO - 127.0.0.1 - - [23/Jul/2026 11:32:24] "POST / HTTP/1.1" 200 -
+2026-07-23 11:32:24,022 - INFO - 127.0.0.1 - - [23/Jul/2026 11:32:24] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:32:24,023 - INFO - 127.0.0.1 - - [23/Jul/2026 11:32:24] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:33:01,702 - ERROR - 
+2026-07-23 11:33:01,703 - INFO - 127.0.0.1 - - [23/Jul/2026 11:33:01] "POST / HTTP/1.1" 200 -
+2026-07-23 11:33:01,715 - INFO - 127.0.0.1 - - [23/Jul/2026 11:33:01] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:33:01,716 - INFO - 127.0.0.1 - - [23/Jul/2026 11:33:01] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:39:26,726 - INFO - 127.0.0.1 - - [23/Jul/2026 11:39:26] "GET / HTTP/1.1" 200 -
+2026-07-23 11:39:26,776 - INFO - 127.0.0.1 - - [23/Jul/2026 11:39:26] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:39:26,776 - INFO - 127.0.0.1 - - [23/Jul/2026 11:39:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 11:44:50,902 - INFO - 127.0.0.1 - - [23/Jul/2026 11:44:50] "GET / HTTP/1.1" 200 -
+2026-07-23 11:44:50,910 - INFO - 127.0.0.1 - - [23/Jul/2026 11:44:50] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:44:50,911 - INFO - 127.0.0.1 - - [23/Jul/2026 11:44:50] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:46:01,383 - INFO - 127.0.0.1 - - [23/Jul/2026 11:46:01] "GET / HTTP/1.1" 200 -
+2026-07-23 11:46:01,393 - INFO - 127.0.0.1 - - [23/Jul/2026 11:46:01] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:46:01,395 - INFO - 127.0.0.1 - - [23/Jul/2026 11:46:01] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:49:05,313 - INFO - 127.0.0.1 - - [23/Jul/2026 11:49:05] "GET / HTTP/1.1" 200 -
+2026-07-23 11:49:05,325 - INFO - 127.0.0.1 - - [23/Jul/2026 11:49:05] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:49:05,326 - INFO - 127.0.0.1 - - [23/Jul/2026 11:49:05] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:50:02,280 - INFO - 127.0.0.1 - - [23/Jul/2026 11:50:02] "GET / HTTP/1.1" 200 -
+2026-07-23 11:50:02,292 - INFO - 127.0.0.1 - - [23/Jul/2026 11:50:02] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:50:02,293 - INFO - 127.0.0.1 - - [23/Jul/2026 11:50:02] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:50:03,713 - INFO - 127.0.0.1 - - [23/Jul/2026 11:50:03] "GET / HTTP/1.1" 200 -
+2026-07-23 11:50:03,723 - INFO - 127.0.0.1 - - [23/Jul/2026 11:50:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 11:50:03,723 - INFO - 127.0.0.1 - - [23/Jul/2026 11:50:03] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:51:21,405 - INFO - 127.0.0.1 - - [23/Jul/2026 11:51:21] "GET / HTTP/1.1" 200 -
+2026-07-23 11:51:21,417 - INFO - 127.0.0.1 - - [23/Jul/2026 11:51:21] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:51:21,418 - INFO - 127.0.0.1 - - [23/Jul/2026 11:51:21] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:51:30,416 - INFO - 127.0.0.1 - - [23/Jul/2026 11:51:30] "GET / HTTP/1.1" 200 -
+2026-07-23 11:51:30,429 - INFO - 127.0.0.1 - - [23/Jul/2026 11:51:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 11:51:30,429 - INFO - 127.0.0.1 - - [23/Jul/2026 11:51:30] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:51:32,545 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 11:51:32,546 - INFO - 127.0.0.1 - - [23/Jul/2026 11:51:32] "POST / HTTP/1.1" 200 -
+2026-07-23 11:51:32,557 - INFO - 127.0.0.1 - - [23/Jul/2026 11:51:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 11:51:32,560 - INFO - 127.0.0.1 - - [23/Jul/2026 11:51:32] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:51:44,249 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 11:51:44,250 - INFO - 127.0.0.1 - - [23/Jul/2026 11:51:44] "POST / HTTP/1.1" 200 -
+2026-07-23 11:51:44,260 - INFO - 127.0.0.1 - - [23/Jul/2026 11:51:44] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:51:44,265 - INFO - 127.0.0.1 - - [23/Jul/2026 11:51:44] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:52:18,482 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 11:52:18,482 - INFO - 127.0.0.1 - - [23/Jul/2026 11:52:18] "POST / HTTP/1.1" 200 -
+2026-07-23 11:52:18,494 - INFO - 127.0.0.1 - - [23/Jul/2026 11:52:18] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:52:18,494 - INFO - 127.0.0.1 - - [23/Jul/2026 11:52:18] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:52:43,356 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 11:52:43,357 - INFO - 127.0.0.1 - - [23/Jul/2026 11:52:43] "POST / HTTP/1.1" 200 -
+2026-07-23 11:52:43,367 - INFO - 127.0.0.1 - - [23/Jul/2026 11:52:43] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:52:43,367 - INFO - 127.0.0.1 - - [23/Jul/2026 11:52:43] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:53:36,812 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 11:53:36,813 - INFO - 127.0.0.1 - - [23/Jul/2026 11:53:36] "POST / HTTP/1.1" 200 -
+2026-07-23 11:53:36,827 - INFO - 127.0.0.1 - - [23/Jul/2026 11:53:36] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:53:36,827 - INFO - 127.0.0.1 - - [23/Jul/2026 11:53:36] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:53:44,580 - INFO - 127.0.0.1 - - [23/Jul/2026 11:53:44] "GET / HTTP/1.1" 200 -
+2026-07-23 11:53:44,635 - INFO - 127.0.0.1 - - [23/Jul/2026 11:53:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 11:53:44,637 - INFO - 127.0.0.1 - - [23/Jul/2026 11:53:44] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:53:50,249 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 11:53:50,250 - INFO - 127.0.0.1 - - [23/Jul/2026 11:53:50] "POST / HTTP/1.1" 200 -
+2026-07-23 11:53:50,269 - INFO - 127.0.0.1 - - [23/Jul/2026 11:53:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 11:53:50,270 - INFO - 127.0.0.1 - - [23/Jul/2026 11:53:50] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:54:02,419 - INFO - 127.0.0.1 - - [23/Jul/2026 11:54:02] "GET / HTTP/1.1" 200 -
+2026-07-23 11:54:02,430 - INFO - 127.0.0.1 - - [23/Jul/2026 11:54:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 11:54:02,431 - INFO - 127.0.0.1 - - [23/Jul/2026 11:54:02] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:55:19,938 - INFO - 127.0.0.1 - - [23/Jul/2026 11:55:19] "GET / HTTP/1.1" 200 -
+2026-07-23 11:55:19,953 - INFO - 127.0.0.1 - - [23/Jul/2026 11:55:19] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:55:19,964 - INFO - 127.0.0.1 - - [23/Jul/2026 11:55:19] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:55:42,910 - INFO - 127.0.0.1 - - [23/Jul/2026 11:55:42] "GET / HTTP/1.1" 200 -
+2026-07-23 11:55:42,922 - INFO - 127.0.0.1 - - [23/Jul/2026 11:55:42] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:55:42,924 - INFO - 127.0.0.1 - - [23/Jul/2026 11:55:42] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:57:15,880 - INFO - 127.0.0.1 - - [23/Jul/2026 11:57:15] "GET / HTTP/1.1" 200 -
+2026-07-23 11:57:15,893 - INFO - 127.0.0.1 - - [23/Jul/2026 11:57:15] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:57:15,893 - INFO - 127.0.0.1 - - [23/Jul/2026 11:57:15] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:57:50,332 - INFO - 127.0.0.1 - - [23/Jul/2026 11:57:50] "GET / HTTP/1.1" 200 -
+2026-07-23 11:57:50,344 - INFO - 127.0.0.1 - - [23/Jul/2026 11:57:50] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:57:50,345 - INFO - 127.0.0.1 - - [23/Jul/2026 11:57:50] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:57:59,446 - INFO - 127.0.0.1 - - [23/Jul/2026 11:57:59] "GET / HTTP/1.1" 200 -
+2026-07-23 11:57:59,456 - INFO - 127.0.0.1 - - [23/Jul/2026 11:57:59] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 11:57:59,457 - INFO - 127.0.0.1 - - [23/Jul/2026 11:57:59] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:58:00,406 - INFO - 127.0.0.1 - - [23/Jul/2026 11:58:00] "GET / HTTP/1.1" 200 -
+2026-07-23 11:58:00,427 - INFO - 127.0.0.1 - - [23/Jul/2026 11:58:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 11:58:00,427 - INFO - 127.0.0.1 - - [23/Jul/2026 11:58:00] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 11:58:00,887 - INFO - 127.0.0.1 - - [23/Jul/2026 11:58:00] "GET / HTTP/1.1" 200 -
+2026-07-23 11:58:00,899 - INFO - 127.0.0.1 - - [23/Jul/2026 11:58:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 11:58:00,900 - INFO - 127.0.0.1 - - [23/Jul/2026 11:58:00] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:11:51,263 - INFO - 127.0.0.1 - - [23/Jul/2026 13:11:51] "GET / HTTP/1.1" 200 -
+2026-07-23 13:11:51,276 - INFO - 127.0.0.1 - - [23/Jul/2026 13:11:51] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:11:51,277 - INFO - 127.0.0.1 - - [23/Jul/2026 13:11:51] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:12:46,439 - INFO - 127.0.0.1 - - [23/Jul/2026 13:12:46] "GET / HTTP/1.1" 200 -
+2026-07-23 13:12:46,449 - INFO - 127.0.0.1 - - [23/Jul/2026 13:12:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:12:46,453 - INFO - 127.0.0.1 - - [23/Jul/2026 13:12:46] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:13:26,920 - INFO - 127.0.0.1 - - [23/Jul/2026 13:13:26] "GET / HTTP/1.1" 200 -
+2026-07-23 13:13:26,930 - INFO - 127.0.0.1 - - [23/Jul/2026 13:13:26] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:13:26,932 - INFO - 127.0.0.1 - - [23/Jul/2026 13:13:26] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:13:28,072 - INFO - 127.0.0.1 - - [23/Jul/2026 13:13:28] "GET / HTTP/1.1" 200 -
+2026-07-23 13:13:28,082 - INFO - 127.0.0.1 - - [23/Jul/2026 13:13:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:13:28,083 - INFO - 127.0.0.1 - - [23/Jul/2026 13:13:28] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:13:28,559 - INFO - 127.0.0.1 - - [23/Jul/2026 13:13:28] "GET / HTTP/1.1" 200 -
+2026-07-23 13:13:28,568 - INFO - 127.0.0.1 - - [23/Jul/2026 13:13:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:13:28,570 - INFO - 127.0.0.1 - - [23/Jul/2026 13:13:28] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:14:34,489 - INFO - 127.0.0.1 - - [23/Jul/2026 13:14:34] "GET / HTTP/1.1" 200 -
+2026-07-23 13:14:34,500 - INFO - 127.0.0.1 - - [23/Jul/2026 13:14:34] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:14:34,501 - INFO - 127.0.0.1 - - [23/Jul/2026 13:14:34] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:17:21,057 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:21] "GET / HTTP/1.1" 200 -
+2026-07-23 13:17:21,096 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:21] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:17:21,097 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:21] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:17:22,170 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:22] "GET / HTTP/1.1" 200 -
+2026-07-23 13:17:22,179 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:17:22,180 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:22] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:17:22,846 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:22] "GET / HTTP/1.1" 200 -
+2026-07-23 13:17:22,858 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:17:22,858 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:22] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:17:33,430 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:33] "GET / HTTP/1.1" 200 -
+2026-07-23 13:17:33,442 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:33] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:17:33,446 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:33] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:17:44,416 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:44] "GET / HTTP/1.1" 200 -
+2026-07-23 13:17:44,457 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:44] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:17:44,460 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:44] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:17:45,107 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:45] "GET / HTTP/1.1" 200 -
+2026-07-23 13:17:45,150 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:17:45,151 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:45] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:17:45,824 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:45] "GET / HTTP/1.1" 200 -
+2026-07-23 13:17:45,854 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:17:45,862 - INFO - 127.0.0.1 - - [23/Jul/2026 13:17:45] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:18:07,318 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:07] "GET / HTTP/1.1" 200 -
+2026-07-23 13:18:07,355 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:07] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:18:07,357 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:07] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:18:08,366 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:08] "GET / HTTP/1.1" 200 -
+2026-07-23 13:18:08,402 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:18:08,407 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:08] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:18:50,332 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:50] "GET / HTTP/1.1" 200 -
+2026-07-23 13:18:50,340 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:18:50,342 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:50] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:18:52,127 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:52] "GET / HTTP/1.1" 200 -
+2026-07-23 13:18:52,136 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:18:52,137 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:52] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:18:52,553 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:52] "GET / HTTP/1.1" 200 -
+2026-07-23 13:18:52,584 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:18:52,589 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:52] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:18:52,991 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:52] "GET / HTTP/1.1" 200 -
+2026-07-23 13:18:53,025 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:18:53,025 - INFO - 127.0.0.1 - - [23/Jul/2026 13:18:53] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:19:00,093 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:00] "GET / HTTP/1.1" 200 -
+2026-07-23 13:19:00,102 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:19:00,104 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:00] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:19:00,747 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:00] "GET / HTTP/1.1" 200 -
+2026-07-23 13:19:00,762 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:00] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:19:00,795 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:19:01,172 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:01] "GET / HTTP/1.1" 200 -
+2026-07-23 13:19:01,179 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:19:01,181 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:01] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:19:05,022 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:05] "GET / HTTP/1.1" 200 -
+2026-07-23 13:19:05,031 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:19:05,033 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:05] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:19:05,580 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:05] "GET / HTTP/1.1" 200 -
+2026-07-23 13:19:05,591 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:19:05,592 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:05] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:19:05,862 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:05] "GET / HTTP/1.1" 200 -
+2026-07-23 13:19:05,872 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:19:05,904 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:05] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:19:06,153 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:06] "GET / HTTP/1.1" 200 -
+2026-07-23 13:19:06,162 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:19:06,163 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:06] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:19:20,588 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:20] "GET / HTTP/1.1" 200 -
+2026-07-23 13:19:20,599 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:19:20,601 - INFO - 127.0.0.1 - - [23/Jul/2026 13:19:20] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:20:43,765 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:43] "GET / HTTP/1.1" 200 -
+2026-07-23 13:20:43,777 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:43] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:20:43,777 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:43] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:20:44,652 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:44] "GET / HTTP/1.1" 200 -
+2026-07-23 13:20:44,659 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:20:44,661 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:44] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:20:44,936 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:44] "GET / HTTP/1.1" 200 -
+2026-07-23 13:20:44,979 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:20:44,980 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:44] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:20:45,397 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:45] "GET / HTTP/1.1" 200 -
+2026-07-23 13:20:45,407 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:20:45,436 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:45] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:20:46,055 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:46] "GET / HTTP/1.1" 200 -
+2026-07-23 13:20:46,064 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:20:46,094 - INFO - 127.0.0.1 - - [23/Jul/2026 13:20:46] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:21:32,090 - INFO - 127.0.0.1 - - [23/Jul/2026 13:21:32] "GET / HTTP/1.1" 200 -
+2026-07-23 13:21:32,112 - INFO - 127.0.0.1 - - [23/Jul/2026 13:21:32] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:21:32,113 - INFO - 127.0.0.1 - - [23/Jul/2026 13:21:32] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:21:33,871 - INFO - 127.0.0.1 - - [23/Jul/2026 13:21:33] "GET / HTTP/1.1" 200 -
+2026-07-23 13:21:33,881 - INFO - 127.0.0.1 - - [23/Jul/2026 13:21:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:21:33,882 - INFO - 127.0.0.1 - - [23/Jul/2026 13:21:33] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:21:34,464 - INFO - 127.0.0.1 - - [23/Jul/2026 13:21:34] "GET / HTTP/1.1" 200 -
+2026-07-23 13:21:34,475 - INFO - 127.0.0.1 - - [23/Jul/2026 13:21:34] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:21:34,475 - INFO - 127.0.0.1 - - [23/Jul/2026 13:21:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:21:35,042 - INFO - 127.0.0.1 - - [23/Jul/2026 13:21:35] "GET / HTTP/1.1" 200 -
+2026-07-23 13:21:35,051 - INFO - 127.0.0.1 - - [23/Jul/2026 13:21:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:21:35,052 - INFO - 127.0.0.1 - - [23/Jul/2026 13:21:35] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:22:34,676 - INFO - 127.0.0.1 - - [23/Jul/2026 13:22:34] "GET / HTTP/1.1" 200 -
+2026-07-23 13:22:34,684 - INFO - 127.0.0.1 - - [23/Jul/2026 13:22:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:22:34,685 - INFO - 127.0.0.1 - - [23/Jul/2026 13:22:34] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:22:50,183 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:22:50,184 - INFO - 127.0.0.1 - - [23/Jul/2026 13:22:50] "POST / HTTP/1.1" 200 -
+2026-07-23 13:22:50,199 - INFO - 127.0.0.1 - - [23/Jul/2026 13:22:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:22:50,201 - INFO - 127.0.0.1 - - [23/Jul/2026 13:22:50] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:24:57,992 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:24:57,997 - INFO - 127.0.0.1 - - [23/Jul/2026 13:24:57] "POST / HTTP/1.1" 200 -
+2026-07-23 13:24:58,010 - INFO - 127.0.0.1 - - [23/Jul/2026 13:24:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:24:58,012 - INFO - 127.0.0.1 - - [23/Jul/2026 13:24:58] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:25:02,600 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:25:02,600 - INFO - 127.0.0.1 - - [23/Jul/2026 13:25:02] "POST / HTTP/1.1" 200 -
+2026-07-23 13:25:02,612 - INFO - 127.0.0.1 - - [23/Jul/2026 13:25:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:25:02,614 - INFO - 127.0.0.1 - - [23/Jul/2026 13:25:02] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:31:23,373 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:31:23,466 - INFO - 127.0.0.1 - - [23/Jul/2026 13:31:23] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2026-07-23 13:31:23,480 - INFO - 127.0.0.1 - - [23/Jul/2026 13:31:23] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-07-23 13:31:23,481 - INFO - 127.0.0.1 - - [23/Jul/2026 13:31:23] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:31:23,526 - INFO - 127.0.0.1 - - [23/Jul/2026 13:31:23] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=G744MDan8jOhQDvvLFpi HTTP/1.1" 200 -
+2026-07-23 13:31:23,570 - INFO - 127.0.0.1 - - [23/Jul/2026 13:31:23] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-07-23 13:31:55,318 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:31:55,322 - INFO - 127.0.0.1 - - [23/Jul/2026 13:31:55] "POST / HTTP/1.1" 200 -
+2026-07-23 13:31:55,339 - INFO - 127.0.0.1 - - [23/Jul/2026 13:31:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:31:55,340 - INFO - 127.0.0.1 - - [23/Jul/2026 13:31:55] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:31:58,981 - INFO - 127.0.0.1 - - [23/Jul/2026 13:31:58] "GET / HTTP/1.1" 200 -
+2026-07-23 13:31:59,050 - INFO - 127.0.0.1 - - [23/Jul/2026 13:31:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:31:59,050 - INFO - 127.0.0.1 - - [23/Jul/2026 13:31:59] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:32:32,816 - INFO - 127.0.0.1 - - [23/Jul/2026 13:32:32] "GET / HTTP/1.1" 200 -
+2026-07-23 13:32:32,827 - INFO - 127.0.0.1 - - [23/Jul/2026 13:32:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:32:32,828 - INFO - 127.0.0.1 - - [23/Jul/2026 13:32:32] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:32:34,094 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:32:34,096 - INFO - 127.0.0.1 - - [23/Jul/2026 13:32:34] "POST / HTTP/1.1" 200 -
+2026-07-23 13:32:34,110 - INFO - 127.0.0.1 - - [23/Jul/2026 13:32:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:32:34,111 - INFO - 127.0.0.1 - - [23/Jul/2026 13:32:34] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:32:35,812 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:32:35,813 - INFO - 127.0.0.1 - - [23/Jul/2026 13:32:35] "POST / HTTP/1.1" 200 -
+2026-07-23 13:32:35,827 - INFO - 127.0.0.1 - - [23/Jul/2026 13:32:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:32:35,828 - INFO - 127.0.0.1 - - [23/Jul/2026 13:32:35] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:33:12,523 - INFO -  * Detected change in 'C:\\Users\\Luari\\OneDrive\\Desktop\\Projetos\\Transformers - Convertedor de arquivos\\servicos\\tratador_erros.py', reloading
+2026-07-23 13:33:12,737 - INFO -  * Restarting with stat
+2026-07-23 13:33:13,931 - WARNING -  * Debugger is active!
+2026-07-23 13:33:13,934 - INFO -  * Debugger PIN: 141-900-870
+2026-07-23 13:33:23,437 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:33:23,473 - INFO - 127.0.0.1 - - [23/Jul/2026 13:33:23] "POST / HTTP/1.1" 200 -
+2026-07-23 13:33:23,486 - INFO - 127.0.0.1 - - [23/Jul/2026 13:33:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:33:23,490 - INFO - 127.0.0.1 - - [23/Jul/2026 13:33:23] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:33:28,706 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:33:28,706 - INFO - 127.0.0.1 - - [23/Jul/2026 13:33:28] "POST / HTTP/1.1" 200 -
+2026-07-23 13:33:28,719 - INFO - 127.0.0.1 - - [23/Jul/2026 13:33:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:33:28,721 - INFO - 127.0.0.1 - - [23/Jul/2026 13:33:28] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:35:51,373 - INFO - 127.0.0.1 - - [23/Jul/2026 13:35:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:35:51,523 - INFO - 127.0.0.1 - - [23/Jul/2026 13:35:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-23 13:36:30,434 - INFO - 127.0.0.1 - - [23/Jul/2026 13:36:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-23 13:39:45,782 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:39:45,783 - INFO - 127.0.0.1 - - [23/Jul/2026 13:39:45] "POST / HTTP/1.1" 200 -
+2026-07-23 13:39:45,798 - INFO - 127.0.0.1 - - [23/Jul/2026 13:39:45] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:39:45,803 - INFO - 127.0.0.1 - - [23/Jul/2026 13:39:45] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:40:08,825 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:40:08,826 - INFO - 127.0.0.1 - - [23/Jul/2026 13:40:08] "POST / HTTP/1.1" 200 -
+2026-07-23 13:40:08,844 - INFO - 127.0.0.1 - - [23/Jul/2026 13:40:08] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:40:08,844 - INFO - 127.0.0.1 - - [23/Jul/2026 13:40:08] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:40:31,356 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:40:31,357 - INFO - 127.0.0.1 - - [23/Jul/2026 13:40:31] "POST / HTTP/1.1" 200 -
+2026-07-23 13:40:31,366 - INFO - 127.0.0.1 - - [23/Jul/2026 13:40:31] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:40:31,366 - INFO - 127.0.0.1 - - [23/Jul/2026 13:40:31] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:41:04,003 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:41:04,003 - INFO - 127.0.0.1 - - [23/Jul/2026 13:41:04] "POST / HTTP/1.1" 200 -
+2026-07-23 13:41:04,017 - INFO - 127.0.0.1 - - [23/Jul/2026 13:41:04] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:41:04,018 - INFO - 127.0.0.1 - - [23/Jul/2026 13:41:04] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:41:30,780 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:41:30,781 - INFO - 127.0.0.1 - - [23/Jul/2026 13:41:30] "POST / HTTP/1.1" 200 -
+2026-07-23 13:41:30,791 - INFO - 127.0.0.1 - - [23/Jul/2026 13:41:30] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:41:30,791 - INFO - 127.0.0.1 - - [23/Jul/2026 13:41:30] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:41:40,149 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:41:40,150 - INFO - 127.0.0.1 - - [23/Jul/2026 13:41:40] "POST / HTTP/1.1" 200 -
+2026-07-23 13:41:40,163 - INFO - 127.0.0.1 - - [23/Jul/2026 13:41:40] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:41:40,164 - INFO - 127.0.0.1 - - [23/Jul/2026 13:41:40] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:45:13,731 - INFO - 127.0.0.1 - - [23/Jul/2026 13:45:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:45:13,822 - INFO - 127.0.0.1 - - [23/Jul/2026 13:45:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-23 13:49:25,635 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:49:25,635 - INFO - 127.0.0.1 - - [23/Jul/2026 13:49:25] "POST / HTTP/1.1" 200 -
+2026-07-23 13:49:25,669 - INFO - 127.0.0.1 - - [23/Jul/2026 13:49:25] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:49:25,677 - INFO - 127.0.0.1 - - [23/Jul/2026 13:49:25] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:49:25,694 - INFO - 127.0.0.1 - - [23/Jul/2026 13:49:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-23 13:50:24,957 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:50:24,957 - INFO - 127.0.0.1 - - [23/Jul/2026 13:50:24] "POST / HTTP/1.1" 200 -
+2026-07-23 13:50:24,969 - INFO - 127.0.0.1 - - [23/Jul/2026 13:50:24] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:50:24,969 - INFO - 127.0.0.1 - - [23/Jul/2026 13:50:24] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:50:32,974 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:50:32,975 - INFO - 127.0.0.1 - - [23/Jul/2026 13:50:32] "POST / HTTP/1.1" 200 -
+2026-07-23 13:50:32,983 - INFO - 127.0.0.1 - - [23/Jul/2026 13:50:32] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:50:32,984 - INFO - 127.0.0.1 - - [23/Jul/2026 13:50:32] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:52:01,266 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:52:01,266 - INFO - 127.0.0.1 - - [23/Jul/2026 13:52:01] "POST / HTTP/1.1" 200 -
+2026-07-23 13:52:01,278 - INFO - 127.0.0.1 - - [23/Jul/2026 13:52:01] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:52:01,278 - INFO - 127.0.0.1 - - [23/Jul/2026 13:52:01] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:54:57,459 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:54:57,459 - INFO - 127.0.0.1 - - [23/Jul/2026 13:54:57] "POST / HTTP/1.1" 200 -
+2026-07-23 13:54:57,470 - INFO - 127.0.0.1 - - [23/Jul/2026 13:54:57] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:54:57,472 - INFO - 127.0.0.1 - - [23/Jul/2026 13:54:57] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:55:07,349 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:55:07,350 - INFO - 127.0.0.1 - - [23/Jul/2026 13:55:07] "POST / HTTP/1.1" 200 -
+2026-07-23 13:55:07,360 - INFO - 127.0.0.1 - - [23/Jul/2026 13:55:07] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:55:07,362 - INFO - 127.0.0.1 - - [23/Jul/2026 13:55:07] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:56:17,095 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:56:17,096 - INFO - 127.0.0.1 - - [23/Jul/2026 13:56:17] "POST / HTTP/1.1" 200 -
+2026-07-23 13:56:17,109 - INFO - 127.0.0.1 - - [23/Jul/2026 13:56:17] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:56:17,109 - INFO - 127.0.0.1 - - [23/Jul/2026 13:56:17] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:56:20,317 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:56:20,317 - INFO - 127.0.0.1 - - [23/Jul/2026 13:56:20] "POST / HTTP/1.1" 200 -
+2026-07-23 13:56:20,331 - INFO - 127.0.0.1 - - [23/Jul/2026 13:56:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 13:56:20,332 - INFO - 127.0.0.1 - - [23/Jul/2026 13:56:20] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:56:33,597 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:56:33,597 - INFO - 127.0.0.1 - - [23/Jul/2026 13:56:33] "POST / HTTP/1.1" 200 -
+2026-07-23 13:56:33,610 - INFO - 127.0.0.1 - - [23/Jul/2026 13:56:33] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:56:33,610 - INFO - 127.0.0.1 - - [23/Jul/2026 13:56:33] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:58:19,254 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:58:19,254 - INFO - 127.0.0.1 - - [23/Jul/2026 13:58:19] "POST / HTTP/1.1" 200 -
+2026-07-23 13:58:19,267 - INFO - 127.0.0.1 - - [23/Jul/2026 13:58:19] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:58:19,267 - INFO - 127.0.0.1 - - [23/Jul/2026 13:58:19] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:58:43,104 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:58:43,105 - INFO - 127.0.0.1 - - [23/Jul/2026 13:58:43] "POST / HTTP/1.1" 200 -
+2026-07-23 13:58:43,118 - INFO - 127.0.0.1 - - [23/Jul/2026 13:58:43] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:58:43,120 - INFO - 127.0.0.1 - - [23/Jul/2026 13:58:43] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 13:59:57,888 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 13:59:57,889 - INFO - 127.0.0.1 - - [23/Jul/2026 13:59:57] "POST / HTTP/1.1" 200 -
+2026-07-23 13:59:57,900 - INFO - 127.0.0.1 - - [23/Jul/2026 13:59:57] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 13:59:57,900 - INFO - 127.0.0.1 - - [23/Jul/2026 13:59:57] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:00:17,521 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 14:00:17,521 - INFO - 127.0.0.1 - - [23/Jul/2026 14:00:17] "POST / HTTP/1.1" 200 -
+2026-07-23 14:00:17,535 - INFO - 127.0.0.1 - - [23/Jul/2026 14:00:17] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:00:17,535 - INFO - 127.0.0.1 - - [23/Jul/2026 14:00:17] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:01:10,277 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 14:01:10,278 - INFO - 127.0.0.1 - - [23/Jul/2026 14:01:10] "POST / HTTP/1.1" 200 -
+2026-07-23 14:01:10,288 - INFO - 127.0.0.1 - - [23/Jul/2026 14:01:10] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:01:10,290 - INFO - 127.0.0.1 - - [23/Jul/2026 14:01:10] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:01:31,030 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 14:01:31,030 - INFO - 127.0.0.1 - - [23/Jul/2026 14:01:31] "POST / HTTP/1.1" 200 -
+2026-07-23 14:01:31,042 - INFO - 127.0.0.1 - - [23/Jul/2026 14:01:31] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:01:31,044 - INFO - 127.0.0.1 - - [23/Jul/2026 14:01:31] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:02:27,070 - INFO - 127.0.0.1 - - [23/Jul/2026 14:02:27] "GET / HTTP/1.1" 200 -
+2026-07-23 14:02:27,084 - INFO - 127.0.0.1 - - [23/Jul/2026 14:02:27] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:02:27,084 - INFO - 127.0.0.1 - - [23/Jul/2026 14:02:27] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:02:40,427 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 14:02:40,427 - INFO - 127.0.0.1 - - [23/Jul/2026 14:02:40] "POST / HTTP/1.1" 200 -
+2026-07-23 14:02:40,441 - INFO - 127.0.0.1 - - [23/Jul/2026 14:02:40] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:02:40,441 - INFO - 127.0.0.1 - - [23/Jul/2026 14:02:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:03:06,705 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:06] "GET / HTTP/1.1" 200 -
+2026-07-23 14:03:06,719 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:06] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:03:06,720 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:06] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:03:08,389 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:08] "GET / HTTP/1.1" 200 -
+2026-07-23 14:03:08,400 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:08] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:03:08,400 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:03:08,770 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:08] "GET / HTTP/1.1" 200 -
+2026-07-23 14:03:08,780 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:08] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:03:08,781 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:03:28,812 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:28] "GET / HTTP/1.1" 200 -
+2026-07-23 14:03:28,832 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:28] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:03:28,832 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:28] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:03:49,794 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:49] "GET / HTTP/1.1" 200 -
+2026-07-23 14:03:49,809 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:49] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:03:49,810 - INFO - 127.0.0.1 - - [23/Jul/2026 14:03:49] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:04:10,991 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 14:04:10,991 - INFO - 127.0.0.1 - - [23/Jul/2026 14:04:10] "POST / HTTP/1.1" 200 -
+2026-07-23 14:04:11,007 - INFO - 127.0.0.1 - - [23/Jul/2026 14:04:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:04:11,010 - INFO - 127.0.0.1 - - [23/Jul/2026 14:04:11] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:04:22,252 - INFO - 127.0.0.1 - - [23/Jul/2026 14:04:22] "GET / HTTP/1.1" 200 -
+2026-07-23 14:04:22,267 - INFO - 127.0.0.1 - - [23/Jul/2026 14:04:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:04:22,268 - INFO - 127.0.0.1 - - [23/Jul/2026 14:04:22] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:07:14,106 - INFO - 127.0.0.1 - - [23/Jul/2026 14:07:14] "GET / HTTP/1.1" 200 -
+2026-07-23 14:07:14,115 - INFO - 127.0.0.1 - - [23/Jul/2026 14:07:14] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:07:14,116 - INFO - 127.0.0.1 - - [23/Jul/2026 14:07:14] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:08:59,348 - INFO - 127.0.0.1 - - [23/Jul/2026 14:08:59] "GET / HTTP/1.1" 200 -
+2026-07-23 14:08:59,359 - INFO - 127.0.0.1 - - [23/Jul/2026 14:08:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:08:59,360 - INFO - 127.0.0.1 - - [23/Jul/2026 14:08:59] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:09:00,077 - INFO - 127.0.0.1 - - [23/Jul/2026 14:09:00] "GET / HTTP/1.1" 200 -
+2026-07-23 14:09:00,091 - INFO - 127.0.0.1 - - [23/Jul/2026 14:09:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:09:00,091 - INFO - 127.0.0.1 - - [23/Jul/2026 14:09:00] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:10:21,255 - INFO - 127.0.0.1 - - [23/Jul/2026 14:10:21] "GET / HTTP/1.1" 200 -
+2026-07-23 14:10:21,263 - INFO - 127.0.0.1 - - [23/Jul/2026 14:10:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:10:21,264 - INFO - 127.0.0.1 - - [23/Jul/2026 14:10:21] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:11:06,817 - INFO - 127.0.0.1 - - [23/Jul/2026 14:11:06] "GET / HTTP/1.1" 200 -
+2026-07-23 14:11:06,828 - INFO - 127.0.0.1 - - [23/Jul/2026 14:11:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:11:06,829 - INFO - 127.0.0.1 - - [23/Jul/2026 14:11:06] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:11:13,278 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 14:11:13,279 - INFO - 127.0.0.1 - - [23/Jul/2026 14:11:13] "POST / HTTP/1.1" 200 -
+2026-07-23 14:11:13,293 - INFO - 127.0.0.1 - - [23/Jul/2026 14:11:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:11:13,299 - INFO - 127.0.0.1 - - [23/Jul/2026 14:11:13] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:11:26,541 - INFO - 127.0.0.1 - - [23/Jul/2026 14:11:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:11:26,658 - INFO - 127.0.0.1 - - [23/Jul/2026 14:11:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-23 14:16:05,777 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 14:16:05,779 - INFO - 127.0.0.1 - - [23/Jul/2026 14:16:05] "POST / HTTP/1.1" 200 -
+2026-07-23 14:16:05,797 - INFO - 127.0.0.1 - - [23/Jul/2026 14:16:05] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:16:05,799 - INFO - 127.0.0.1 - - [23/Jul/2026 14:16:05] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:16:29,512 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 14:16:29,513 - INFO - 127.0.0.1 - - [23/Jul/2026 14:16:29] "POST / HTTP/1.1" 200 -
+2026-07-23 14:16:29,524 - INFO - 127.0.0.1 - - [23/Jul/2026 14:16:29] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:16:29,525 - INFO - 127.0.0.1 - - [23/Jul/2026 14:16:29] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:17:55,887 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 14:17:55,888 - INFO - 127.0.0.1 - - [23/Jul/2026 14:17:55] "POST / HTTP/1.1" 200 -
+2026-07-23 14:17:55,900 - INFO - 127.0.0.1 - - [23/Jul/2026 14:17:55] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:17:55,902 - INFO - 127.0.0.1 - - [23/Jul/2026 14:17:55] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:19:27,240 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 14:19:27,241 - INFO - 127.0.0.1 - - [23/Jul/2026 14:19:27] "POST / HTTP/1.1" 200 -
+2026-07-23 14:19:27,253 - INFO - 127.0.0.1 - - [23/Jul/2026 14:19:27] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:19:27,254 - INFO - 127.0.0.1 - - [23/Jul/2026 14:19:27] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:22:14,859 - ERROR - 
+2026-07-23 14:22:14,860 - INFO - 127.0.0.1 - - [23/Jul/2026 14:22:14] "POST / HTTP/1.1" 200 -
+2026-07-23 14:22:14,871 - INFO - 127.0.0.1 - - [23/Jul/2026 14:22:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:22:14,873 - INFO - 127.0.0.1 - - [23/Jul/2026 14:22:14] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:22:22,545 - ERROR - 
+2026-07-23 14:22:22,546 - INFO - 127.0.0.1 - - [23/Jul/2026 14:22:22] "POST / HTTP/1.1" 200 -
+2026-07-23 14:22:22,557 - INFO - 127.0.0.1 - - [23/Jul/2026 14:22:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:22:22,559 - INFO - 127.0.0.1 - - [23/Jul/2026 14:22:22] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:22:25,148 - INFO - 127.0.0.1 - - [23/Jul/2026 14:22:25] "GET / HTTP/1.1" 200 -
+2026-07-23 14:22:25,163 - INFO - 127.0.0.1 - - [23/Jul/2026 14:22:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:22:25,163 - INFO - 127.0.0.1 - - [23/Jul/2026 14:22:25] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:23:03,159 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:03] "GET / HTTP/1.1" 200 -
+2026-07-23 14:23:03,169 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:03] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:23:03,170 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:03] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:23:04,063 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:04] "GET / HTTP/1.1" 200 -
+2026-07-23 14:23:04,076 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:23:04,077 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:04] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:23:04,415 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:04] "GET / HTTP/1.1" 200 -
+2026-07-23 14:23:04,428 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:23:04,429 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:04] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:23:09,187 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:09] "GET / HTTP/1.1" 200 -
+2026-07-23 14:23:09,203 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:09] "GET /static/style.css HTTP/1.1" 200 -
+2026-07-23 14:23:09,203 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:09] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:23:09,681 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:09] "GET / HTTP/1.1" 200 -
+2026-07-23 14:23:09,723 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:23:09,725 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:09] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:23:09,907 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:09] "GET / HTTP/1.1" 200 -
+2026-07-23 14:23:09,917 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:23:09,920 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:09] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:23:10,140 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:10] "GET / HTTP/1.1" 200 -
+2026-07-23 14:23:10,150 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:23:10,150 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:10] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:23:12,545 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:12] "GET / HTTP/1.1" 200 -
+2026-07-23 14:23:12,559 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:23:12,559 - INFO - 127.0.0.1 - - [23/Jul/2026 14:23:12] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
+2026-07-23 14:31:38,456 - ERROR - No /Root object! - Is this really a PDF?
+2026-07-23 14:31:38,457 - INFO - 127.0.0.1 - - [23/Jul/2026 14:31:38] "POST / HTTP/1.1" 200 -
+2026-07-23 14:31:38,470 - INFO - 127.0.0.1 - - [23/Jul/2026 14:31:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-07-23 14:31:38,471 - INFO - 127.0.0.1 - - [23/Jul/2026 14:31:38] "[36mGET /static/assets/luari_logo.png HTTP/1.1[0m" 304 -
